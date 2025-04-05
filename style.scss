@@ -91,14 +91,14 @@ body {
   gap: 30px;
 }
 
-.sign-in {
+.sign-in-button {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: var(--font-size-16);
   color: var(--color-h1);
 }
 
-.main-button {
+.sign-up-button {
   border: 1px solid var(--color-red);
   padding: 13px 45px;
   border-radius: 50px;
@@ -108,7 +108,7 @@ body {
   color: var(--color-red);
 }
 
-.main-button:hover {
+.sign-up-button:hover {
   color: white;
   background-color: var(--color-red);
   transition: 0.5s ease-in-out;
@@ -149,7 +149,7 @@ body {
   line-height: 30px;
   margin: 20px 40px 50px 0;
 
-  .laslel {
+  .lasles {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: var(--font-size-16);
@@ -224,10 +224,12 @@ body {
 
 .h2-heading {
   font-family: var(--font-family);
+  width: 384px;
   font-weight: 500;
   font-size: 35px;
   color: var(--color-h1);
   line-height: 50px;
+  text-align: center;
 }
 
 .features {
@@ -275,7 +277,7 @@ body {
 
 .pricing {
   flex-direction: column;
-  margin: 50px;
+  // margin: 50px;
 }
 
 .section--with-bg {
@@ -290,12 +292,12 @@ body {
   height: 100%;
   top: 0;
   justify-self: center;
-  background-color: hsl(0, 0%, 99.4%);
+  background-color: hsla(0, 0%, 96%, 0.35);
   z-index: -1;
 }
 
 .pricing-description {
-  max-width: 600px;
+  width: 555px;
   text-align: center;
   font-family: var(--font-family);
   font-weight: 400;
@@ -308,9 +310,8 @@ body {
 .pricing-plans {
   display: flex;
   width: 1090px;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  // gap: 30px;
 }
 
 .pricing-plan {
@@ -409,5 +410,42 @@ body {
 .pricing-button:hover {
   color: white;
   background-color: var(--color-red);
+  box-shadow: 0px 25px 54px 0px hsla(0, 90%, 59%, 0.35);
   transition: 0.5s ease-in-out;
+}
+
+.testimonials {
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.testimonials-description {
+  width: 555px;
+  text-align: center;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: var(--color-description);
+  margin-top: 20px;
+}
+
+.world-map {
+  margin: 156px 0 36px;
+  max-width: 100%;
+}
+
+.companies {
+  display: flex;
+  width: 1135px;
+  // gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.company {
+  max-width: 100%;
+  filter: contrast(0);
 }

@@ -54,12 +54,11 @@ body {
 
 .container {
   display: grid;
-
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 100px;
   gap: 100px;
-  // justify-content: center;
+  justify-content: center;
   align-items: center;
 }
 
@@ -99,11 +98,9 @@ body {
   color: var(--color-h1);
 }
 
-.sign-up {
+.main-button {
   border: 1px solid var(--color-red);
   padding: 13px 45px;
-  // width: 150px;
-  // height: 45px;
   border-radius: 50px;
   font-family: var(--font-family);
   font-weight: 500;
@@ -111,7 +108,7 @@ body {
   color: var(--color-red);
 }
 
-.sign-up:hover {
+.main-button:hover {
   color: white;
   background-color: var(--color-red);
   transition: 0.5s ease-in-out;
@@ -226,7 +223,6 @@ body {
 }
 
 .h2-heading {
-  // display: flex;
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 35px;
@@ -235,7 +231,6 @@ body {
 }
 
 .features {
-  // width: 1140px;
   gap: 170px;
   margin-left: 35px;
 }
@@ -276,4 +271,143 @@ body {
 .check {
   margin-right: 10px;
   max-width: 100%;
+}
+
+.pricing {
+  flex-direction: column;
+  margin: 50px;
+}
+
+.section--with-bg {
+  padding: 5rem 0;
+  position: relative;
+}
+
+.section--with-bg::before {
+  content: "";
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  top: 0;
+  justify-self: center;
+  background-color: hsl(0, 0%, 99.4%);
+  z-index: -1;
+}
+
+.pricing-description {
+  max-width: 600px;
+  text-align: center;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: var(--color-description);
+}
+
+.pricing-plans {
+  display: flex;
+  width: 1090px;
+  justify-content: space-around;
+  align-items: center;
+  // gap: 30px;
+}
+
+.pricing-plan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(221, 221, 221, 1);
+  border-radius: 10px;
+  width: 330px;
+  height: 760px;
+  background-color: white;
+}
+
+.pricing-plan:hover {
+  border-color: var(--color-red);
+  transition: 0.5s ease-in-out;
+}
+
+.pricing-box {
+  max-width: 100%;
+  margin-top: 80px;
+}
+
+.name-plan {
+  margin: 30px 0;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: var(--color-h1);
+}
+
+.pricing-ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.pricing-li {
+  display: flex;
+  align-items: center;
+}
+
+.pricing-mark {
+  margin-right: 20px;
+}
+.pricing-description-li {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: var(--color-description);
+}
+
+.plan-price {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: var(--color-h1);
+}
+
+.free {
+  margin-top: 130px;
+}
+
+.standard {
+  margin-top: 90px;
+}
+
+.premium {
+  margin-top: 50px;
+}
+
+.mo {
+  font-weight: 400;
+  color: #909090;
+}
+
+.pricing-button {
+  border: 2px solid var(--color-red);
+  border-radius: 50px;
+  padding: 13px 63px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: var(--font-size-16);
+  color: var(--color-red);
+  margin: 20px 76px 50px;
+}
+
+.pricing-button:hover {
+  color: white;
+  background-color: var(--color-red);
+  transition: 0.5s ease-in-out;
 }

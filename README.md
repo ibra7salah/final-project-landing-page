@@ -1,7 +1,7 @@
 ````markdown
 # LaslesVPN Landing Page
 
-![LaslesVPN Banner](assets/screencapture-127-0-0-1-5500-index-html-2025-04-13-03_00_01.png)
+![LaslesVPN Banner](assets/screencapture-127-0-0-1-5500-index-html-2025-04-13-03_04_16.png)
 
 A responsive landing page for LaslesVPN, showcasing features, pricing, testimonials, and global network coverage. Built with HTML & CSS using a mobile-first approach.
 

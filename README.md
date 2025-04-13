@@ -52,5 +52,3 @@ cd lasles-vpn-landing-page
 
 Built with ❤️ by **[Ibrahim Salah]**  
 [Contact Email](mailto:ibra20salah@outlook.com)
-
-```

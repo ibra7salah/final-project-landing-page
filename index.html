@@ -19,6 +19,13 @@
     <div class="container">
       <header class="header">
         <img src="assets/Logo.svg" alt="" class="logo" />
+
+        <input type="checkbox" class="burger-menu__checkbox" id="burger-menu" />
+        <label class="burger-menu__icon" for="burger-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
         <ul class="links">
           <li class="links__link"><a href="#about" class="link">About</a></li>
           <li class="links__link">
@@ -320,8 +327,14 @@
                   <p class="author-country">Warsaw, Poland</p>
                 </div>
               </div>
-              <p class="rating-number">4.5</p>
-              <img class="rating-star" src="assets/Group 1161.png" alt="star" />
+              <div class="opinion-rate">
+                <p class="rating-number">4.5</p>
+                <img
+                  class="rating-star"
+                  src="assets/Group 1161.png"
+                  alt="star"
+                />
+              </div>
             </div>
             <p class="opinion-text">
               “Wow... I am very happy to use this VPN, it turned out to be more
@@ -342,8 +355,14 @@
                   <p class="author-country yessica">Shanxi, China</p>
                 </div>
               </div>
-              <p class="rating-number">4.5</p>
-              <img class="rating-star" src="assets/Group 1161.png" alt="star" />
+              <div class="opinion-rate">
+                <p class="rating-number">4.5</p>
+                <img
+                  class="rating-star"
+                  src="assets/Group 1161.png"
+                  alt="star"
+                />
+              </div>
             </div>
             <p class="opinion-text">
               “I like it because I like to travel far and still can connect with
@@ -363,8 +382,14 @@
                   <p class="author-country kim">Seoul, South Korea</p>
                 </div>
               </div>
-              <p class="rating-number">4.5</p>
-              <img class="rating-star" src="assets/Group 1161.png" alt="star" />
+              <div class="opinion-rate">
+                <p class="rating-number">4.5</p>
+                <img
+                  class="rating-star"
+                  src="assets/Group 1161.png"
+                  alt="star"
+                />
+              </div>
             </div>
             <p class="opinion-text">
               “This is very unusual for my business that currently requires a
@@ -396,7 +421,9 @@
         </div>
         <button class="subscribe-button">Subscribe Now</button>
       </section>
-      <footer class="footer section footer-with-bg">
+    </div>
+    <footer class="footer">
+      <div class="container footer-container">
         <div class="footer-main">
           <img src="assets/Logo.svg" alt="" class="footer-logo" />
           <p class="footer-description">
@@ -419,11 +446,12 @@
               src="assets/Instagram.svg"
               alt="instagram icon"
             />
-            <p class="footer-copyright">
-              ©2020Lasles<span class="footer-vpn">VPN</span>
-            </p>
           </div>
+          <p class="footer-copyright">
+            ©2020Lasles<span class="footer-vpn">VPN</span>
+          </p>
         </div>
+
         <div class="footer-lists">
           <ul class="footer-ul">
             <li class="footer-li-main">Product</li>
@@ -449,7 +477,7 @@
             <li class="footer-list">Become Partner</li>
           </ul>
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
   </body>
 </html>

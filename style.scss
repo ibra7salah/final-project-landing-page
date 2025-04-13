@@ -560,6 +560,8 @@ body {
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
   padding: 40px;
   // margin: 60px 0;
+  position: relative;
+  z-index: 1;
 }
 
 .subscribe-main {
@@ -596,11 +598,9 @@ body {
 
 /* Footer Section */
 .footer {
-  position: relative;
   padding: 180px 150px 100px;
   margin-top: -125px;
   background-color: hsla(0, 0%, 97%, 1);
-  z-index: -1;
 }
 
 .footer-container {
@@ -686,8 +686,8 @@ body {
   transition: color 0.3s ease;
 }
 
-/* Tablet Version (max-width: 768px) */
-@media screen and (max-width: 768px) {
+/* Tablet Version */
+@media screen and (max-width: 980px) {
   .header {
     padding: 15px 30px;
     flex-wrap: wrap;

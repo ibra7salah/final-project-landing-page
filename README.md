@@ -1,4 +1,3 @@
-````markdown
 # LaslesVPN Landing Page
 
 ![LaslesVPN Banner](assets/screencapture-127-0-0-1-5500-index-html-2025-04-13-03_04_16.png)
@@ -20,10 +19,6 @@ A responsive landing page for LaslesVPN, showcasing features, pricing, testimoni
 - **Optimized Assets**: SVG illustrations and PNG icons
 
 ## Technologies
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
 - **HTML5**: Semantic structure
 - **CSS3**:
   - Flexbox/Grid layouts
@@ -39,7 +34,6 @@ A responsive landing page for LaslesVPN, showcasing features, pricing, testimoni
 ```bash
 git clone https://github.com/your-username/lasles-vpn-landing-page.git
 ```
-````
 
 2. Navigate to project:
 
@@ -56,11 +50,7 @@ cd lasles-vpn-landing-page
 
 - [Rubik Font](https://fonts.google.com/specimen/Rubik) by Google Fonts
 
----
-
 Built with ❤️ by **[Ibrahim Salah]**  
 [Contact Email](mailto:ibra20salah@outlook.com)
-
-```
 
 ```
